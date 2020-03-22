@@ -10,4 +10,3 @@ int main()
         if(stones[i] == stones[i+1])
             counter++;
     cout<< counter <<endl;
-}
