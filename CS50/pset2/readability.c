@@ -10,7 +10,7 @@ int main(void)
     char head, nextHead;
     bool firstWord = true;
     string text = get_string("Text: ");
-    int n = strlen(text);
+    int n = strlen(text) - 1;
     for (int i = 0 ; i < n ; i++)
     {
         head = text[i];
