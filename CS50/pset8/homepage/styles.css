@@ -1,0 +1,41 @@
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--blue);
+}
+
+header .logo {
+    color: var(--light);
+    margin: 0;
+    padding-left: 1rem;
+}
+
+header, nav, footer {
+    background-color: var(--dark);
+    color: var(--light)
+}
+
+nav a {
+    color: var(--light);
+}
+
+nav a.active {
+    color: var(--blue);
+}
+
+main {
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid var(--dark);
+    border-radius: 5px;
+}
+
+footer {
+    /* position: absolute; */
+    /* bottom: 0; */
+    width: 100%;
+    padding: .5rem 0;
+    text-align: center;
+}
